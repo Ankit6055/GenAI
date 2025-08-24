@@ -9,8 +9,12 @@ async function main() {
     .create({
       messages: [
         {
+            role: "system",
+            content: "You are Jarvis, a smart personal assistant."
+        },
+        {
           role: "user",
-          content: "which model are you",
+          content: "Who are you?",
         },
       ],
       model: "openai/gpt-oss-20b",
