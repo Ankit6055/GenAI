@@ -1,0 +1,12 @@
+Prompt - A prompt is simply the text you send to a large-language model. 
+        It contains Instructions, Input data, Context, Output Indicator.
+        
+        Eg: Classify the review as positive, neutral or negative
+            Review: These headphones arrives  quickly and look great, but the left earcup stopped working 
+                    after a week.
+            Sentiment: _____
+
+        Types of prompting techniques:
+          Zero-shot prompting: Here we directly ask the question.
+          Few-shot prompting: We give multiple examples and then asks the question.
+          Chain-of-thought: Model has Reasoning capability
